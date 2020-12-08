@@ -15,7 +15,7 @@ public class MainPage {
     public MainPage() {
         PageFactory.initElements(Driver.get(), this);
     }
-//buraya degisiklik yaptik
+//buraya degisiklik yaptik ama calisir mi?
     @FindBy(xpath = "//label[.='One way']")
     public WebElement oneway;
 
